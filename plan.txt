@@ -1,0 +1,19 @@
+(make sure each component is stateless)
+
+> add list component that holds all todo lists 
+> each list has many tasks 
+> click each task to delete 
+
+
+routes 
+> home route shows all todo lists
+> each todo list is clickable to show tasks of each list 
+> button to create a new list 
+
+
+db
+> list :has_many tasks 
+> tasks :belong_to list 
+
+async redux 
+> use redux thunk to get lists from db 
